@@ -3,25 +3,21 @@ body{
     background:black;
 }
 #menu{
-    width:700px;
+    width:250px;
+    height:100%;
     margin:auto;
+    position: absolute;
 }
 #menu ul{
     list-style:none;
-	font-size:18px;
+	font-size:1.125em;
 	font-family:"Hobo Std";
 	margin:0px;
 	padding:0px;
-	height:40px;
 	overflow:hidden;
 }
-#menu ul li{
-    float:left;
-}
 #menu ul li a, #menu ul li span{
-    width:100px;
 	padding:10px 20px;
-	height:18px;
 	color:#FFFFFF;
 	/*background:url("images/Degrade_img.jpg") repeat-x; */
     background:red;
@@ -34,10 +30,9 @@ body{
 	cursor:pointer;
 }
 #menu ul li a{
-    float:left;
+	display:none;
 	background:url("images/Degrade_img.jpg") repeat-x left bottom;
 	color:#000000;
-    height:10px;
 }
 /* <_________ MEDIA SCREEN __________> */
 @MEDIA SCREEN AND (MAX-WIDTH:1200PX){

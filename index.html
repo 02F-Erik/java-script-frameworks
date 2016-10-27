@@ -14,12 +14,17 @@
 			});
 			$('#menu ul li').hover(function(){
 				$(this).find('span').stop().animate({
-					marginTop:"-40px"
+					marginLeft:"-40px"
 				},400);
 			},function(){
 				$(this).find('span').stop().animate({
-					marginTop:"0px"
+					marginLeft:"0px"
 				},300);
+			});
+			$('#menu ul li').click(function(){
+				$(this)({
+					color:"blue"
+				},300)
 			});
 	});
 	</script>
