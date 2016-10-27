@@ -18,7 +18,6 @@ body{
 }
 #menu ul li a, #menu ul li span{
 	padding:10px 20px;
-	color:#FFFFFF;
 	/*background:url("images/Degrade_img.jpg") repeat-x; */
     background:red;
 	text-decoration:none;
@@ -33,20 +32,4 @@ body{
 	display:none;
 	background:url("images/Degrade_img.jpg") repeat-x left bottom;
 	color:#000000;
-}
-/* <_________ MEDIA SCREEN __________> */
-@MEDIA SCREEN AND (MAX-WIDTH:1200PX){
-    
-}
-@MEDIA SCREEN AND (MAX-WIDTH:960PX){
-    
-}
-@MEDIA SCREEN AND (MAX-WIDTH:768PX){
-    
-}
-@MEDIA SCREEN AND (MAX-WIDTH:480PX){
-    
-}
-@MEDIA SCREEN AND (MAX-WIDTH:320PX){
-    
 }
